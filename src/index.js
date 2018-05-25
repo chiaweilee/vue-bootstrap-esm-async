@@ -131,7 +131,10 @@ const components = {
         bMediaBody: () => import(/* webpackChunkName: "vue-bootstrap-media" */ 'bootstrap-vue/es/components/media/media-body')
     },
     Modal: {
-        bModal: () => import(/* webpackChunkName: "vue-bootstrap-modal" */ 'bootstrap-vue/es/components/modal/modal')
+        bModal: () => import(/* webpackChunkName: "vue-bootstrap-modal" */ 'bootstrap-vue/es/components/modal/modal'),
+        use: {
+            modalPlugin: () => import(/* webpackChunkName: "vue-bootstrap-modal" */ 'bootstrap-vue/es/components/modal')
+        }
     },
     Nav: {
         bNav: () => import(/* webpackChunkName: "vue-bootstrap-nav" */ 'bootstrap-vue/es/components/nav/nav'),
