@@ -1,0 +1,19 @@
+{
+  "name": "vue-bootstrap-esm-async",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiaweilee/vue-bootstrap-esm-async.git"
+  },
+  "author": "+v",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chiaweilee/vue-bootstrap-esm-async/issues"
+  },
+  "homepage": "https://github.com/chiaweilee/vue-bootstrap-esm-async#readme"
+}
